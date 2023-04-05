@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./final.css">
+    <title>Tailwind</title>
+</head>
+<body class="container mx-auto mt-5 bg-i-bg">
+    <nav class="flex items-center justify-between flex-wrap bg-i-bg p-6 gap-5">
+        <div class="flex items-center flex-shrink-0 text-gris mr-6">
+          <span class="font-semibold text-3xl tracking-tight">NFT Marketplace</span>
+        </div>
+        <div class="hidden lg:block lg:text-center py-4 lg:px-4">
+          <div class="p-2 bg-indigo-800 items-center text-indigo-100 leading-none lg:rounded-full flex lg:inline-flex" role="alert">
+            <span class="flex rounded-full bg-indigo-500 uppercase px-2 py-1 text-xs font-bold mr-3">New</span>
+            <span class="font-semibold mr-2 text-left flex-auto">Join the NFT revolution and start investing in digital art today</span>
+            <svg class="fill-current opacity-75 h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M12.95 10.707l.707-.707L8 4.343 6.586 5.757 10.828 10l-4.242 4.243L8 15.657l4.95-4.95z"/></svg>
+          </div>
+        </div>
+        <div class="block lg:hidden">
+          <button id='boton' class="flex items-center px-3 py-2 border rounded text-gris border-teal-400 hover:text-white hover:border-white">
+            <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg>
+          </button>
+        </div>
+        <div id='menu' class="bg-gray-800 py-4 px-6 rounded-md w-full block items-end hidden lg:flex lg:flex-row lg:w-auto lg:bg-transparent">
+          <div class="text-lg text-center text-white flex flex-col items-center  lg:flex-row lg:gap-5">
+            <a href="#" class="menu-link block mt-4 lg:relative lg:inline-block lg:mt-0 text-gris hover:text-lila">
+              Home
+            </a>
+            <a href="#" class="menu-link block mt-4 lg:relative lg:inline-block lg:mt-0 text-gris hover:text-lila">
+              Activity
+            </a>
+            <a href="#" class="menu-link block mt-4 lg:relative lg:inline-block lg:mt-0 text-gris hover:text-lila">
+              Blog
+            </a>
+            <a href="#" class="menu-link block mt-4 lg:relative lg:inline-block lg:mt-0 text-gris hover:text-lila">
+              Contact
+            </a>
+          </div>
+        </div>
+      </nav>
+    <script src="./app.js"></script>
+</body>
+</html>
