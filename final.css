@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
 /*! tailwindcss v2.2.19 | MIT License | https://tailwindcss.com */
 
@@ -22779,8 +22779,8 @@ video {
   vertical-align: text-bottom;
 }
 
-.font-rale{
-  font-family: Raleway;
+.font-mont{
+  font-family: Montserrat;
 }
 
 .text-xs{
@@ -54261,8 +54261,8 @@ video {
     vertical-align: text-bottom;
   }
 
-  .sm\:font-rale{
-    font-family: Raleway;
+  .sm\:font-mont{
+    font-family: Montserrat;
   }
 
   .sm\:text-xs{
@@ -85333,8 +85333,8 @@ video {
     vertical-align: text-bottom;
   }
 
-  .md\:font-rale{
-    font-family: Raleway;
+  .md\:font-mont{
+    font-family: Montserrat;
   }
 
   .md\:text-xs{
@@ -116405,8 +116405,8 @@ video {
     vertical-align: text-bottom;
   }
 
-  .lg\:font-rale{
-    font-family: Raleway;
+  .lg\:font-mont{
+    font-family: Montserrat;
   }
 
   .lg\:text-xs{
@@ -147477,8 +147477,8 @@ video {
     vertical-align: text-bottom;
   }
 
-  .xl\:font-rale{
-    font-family: Raleway;
+  .xl\:font-mont{
+    font-family: Montserrat;
   }
 
   .xl\:text-xs{
@@ -178549,8 +178549,8 @@ video {
     vertical-align: text-bottom;
   }
 
-  .\32xl\:font-rale{
-    font-family: Raleway;
+  .\32xl\:font-mont{
+    font-family: Montserrat;
   }
 
   .\32xl\:text-xs{
